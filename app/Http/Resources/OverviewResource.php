@@ -31,7 +31,7 @@ class OverviewResource extends JsonResource
                         'text' => 'မာတိကာ',
                         'buttons' => [[
                             'type' => 'show_block',
-                            'block_names' => 'Menu',
+                            'block_names' => ['Menu'],
                             'title' => 'Show Block'
                         ]]
                     ]
