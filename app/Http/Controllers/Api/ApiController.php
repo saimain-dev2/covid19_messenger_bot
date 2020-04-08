@@ -23,6 +23,7 @@ class ApiController extends Controller
         $response = Http::get('https://covid19.joymogok.com/mmconfirmedcase.json');
         $data = $response->json();
 
-        return new ConfirmedResource($data);
+        // print_r($data);
+        return ConfirmedResource::collection($data);
     }
 }
