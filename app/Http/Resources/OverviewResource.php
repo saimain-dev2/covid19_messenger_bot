@@ -28,9 +28,9 @@ class OverviewResource extends JsonResource
                     'type' => 'template',
                     'payload' => [
                         'template_type' => 'button',
-                        'text' => 'မာတိကာ',
+                        'text' => '',
                         'buttons' => [[
-                            'type' => 'show_block',
+                            'type' => 'မာတိကာ',
                             'block_names' => ['Menu'],
                             'title' => 'Show Block'
                         ]]
