@@ -28,12 +28,19 @@ class OverviewResource extends JsonResource
                     'type' => 'template',
                     'payload' => [
                         'template_type' => 'button',
-                        'text' => '',
-                        'buttons' => [[
-                            'type' => 'မာတိကာ',
-                            'block_names' => ['Menu'],
-                            'title' => 'Show Block'
-                        ]]
+                        'text' => 'ဆက်လက်လုပ်ဆောင်မည့် အရာကို အောက်တွင် နှိပ်ပါ။',
+                        'buttons' => [
+                            [
+                                'type' => 'show_block',
+                                'block_names' => ['Menu'],
+                                'title' => 'မာတိကာ'
+                            ],
+                            [
+                                'type' => 'show_block',
+                                'block_names' => ['Share'],
+                                'title' => 'မျှ‌ဝေမည်'
+                            ]
+                        ]
                     ]
                 ]
             ]
