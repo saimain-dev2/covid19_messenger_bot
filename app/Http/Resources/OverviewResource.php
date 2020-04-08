@@ -26,7 +26,7 @@ class OverviewResource extends JsonResource
             [
                 'quick_replies' => [[
                     'title' => 'မာတိကာ',
-                    'block_names' => ['Menu']
+                    'block_names' => 'Menu'
                 ]]
             ]
         ];
