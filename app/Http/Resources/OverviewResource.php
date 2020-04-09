@@ -31,8 +31,8 @@ class OverviewResource extends JsonResource
                         'image_aspect_ratio' => 'horizontal',
                         'elements' => [
                             [
-                                'title' => 'စောင့်ကြည့်လူနာ (PUI)',
-                                'image_url' => 'https://i.ibb.co/cwctdM3/PUI.png',
+                                'title' => $this['pui'] . ' ဦး',
+                                'image_url' => 'https://i.ibb.co/WKgn41x/PUI-1.png',
                                 'subtitle' => $this['dt'],
                                 'buttons' => [[
 
