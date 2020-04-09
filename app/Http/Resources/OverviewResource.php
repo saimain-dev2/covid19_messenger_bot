@@ -33,9 +33,8 @@ class OverviewResource extends JsonResource
                             [
                                 'title' => 'စောင့်ကြည့်လူနာ (PUI)',
                                 'image_url' => 'https://i.ibb.co/cwctdM3/PUI.png',
-                                'subtitle' => 'နေ့စွဲ - ' . $this['dt'],
+                                'subtitle' => 'နေ့စွဲ - ',
                                 'buttons' => [[
-
                                     'type' => 'show_block',
                                     'block_names' => ['Menu'],
                                     'title' => 'မာတိကာ'
