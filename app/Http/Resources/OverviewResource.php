@@ -28,13 +28,14 @@ class OverviewResource extends JsonResource
                     'type' => 'template',
                     'payload' => [
                         'template_type' => 'generic',
-                        'image_aspect_ratio' => 'square',
+                        'image_aspect_ratio' => 'horizontal',
                         'elements' => [
                             [
                                 'title' => 'စောင့်ကြည့်လူနာ (PUI)',
                                 'image_url' => 'https://i.ibb.co/cwctdM3/PUI.png',
-                                'subtitle' => 'နေ့စွဲ - ',
+                                'subtitle' => $this['dt'],
                                 'buttons' => [[
+
                                     'type' => 'show_block',
                                     'block_names' => ['Menu'],
                                     'title' => 'မာတိကာ'
