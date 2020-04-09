@@ -27,23 +27,25 @@ class OverviewResource extends JsonResource
                 'attachment' => [
                     'type' => 'template',
                     'payload' => [
-                        'template_type' => 'button',
-                        'text' => 'ဆက်လက်လုပ်ဆောင်မည့် အရာကို အောက်တွင် နှိပ်ပါ။',
-                        'buttons' => [
+                        'template_type' => 'generic',
+                        'image_aspect_ratio' => 'square',
+                        'elements' => [
                             [
-                                'type' => 'show_block',
-                                'block_names' => ['Menu'],
-                                'title' => 'မာတိကာ'
-                            ],
-                            [
-                                'type' => 'show_block',
-                                'block_names' => ['Share'],
-                                'title' => 'မျှ‌ဝေမည်'
+                                'title' => 'စောင့်ကြည့်လူနာ (PUI)',
+                                'image_url' => 'https://i.ibb.co/cwctdM3/PUI.png',
+                                'subtitle' => 'နေ့စွဲ - ' . $this['dt'],
+                                'buttons' => [[
+
+                                    'type' => 'show_block',
+                                    'block_names' => ['Menu'],
+                                    'title' => 'မာတိကာ'
+                                ]]
                             ]
                         ]
                     ]
                 ]
             ]
+
         ];
     }
 }
